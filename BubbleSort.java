@@ -24,10 +24,11 @@ public class BubbleSort {
             }
         }
     }
+    //print
     public static void main(String[] args) {
 
 
-        int[] array = {5, 3, 8, 1, 2}; // Unsorted array
+        int[] array = {5, 3, 8, 1, 2};
         int size = array.length;
         BubbleSort.bubbleSort(array, size);
 
